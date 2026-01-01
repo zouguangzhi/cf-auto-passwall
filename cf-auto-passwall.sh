@@ -30,7 +30,7 @@ if [ "$old_ip" = "$anycast" ]; then
 fi
 
 # 执行 uci 替换逻辑
-uci set passwall.$NODE_ID.address=$anycast
+uci set passwall.××××××××××.address=$anycast
 uci commit passwall
 
 echo "配置已修改，正在重启服务..."
